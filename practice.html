@@ -10,6 +10,7 @@
     <h1>About Google</h1>
     <!--Linked a Cafe Website from index.html to cafe.html-->
     <p> <a href="cafe.html">Cafe Site</a></p>
+    <p> <a href="wrox.html">Wrox Site</a></p>
     <!--Implementing Paragraphs in HTML-->
     <p>
       Google is best known for its search engine, although Google now offers a
@@ -129,8 +130,76 @@ Recommendation for XHTML, following on from earlier work on HTML 4.01, HTML
   </ul>
  </P>
  
+ <!--Roman numerals in a list-->
+ <h3>Roman Numerals</h3>
+ <ol type=”i”> 
+ <li> Point number one </li> 
+ <li> Point number two </li> 
+ <li> Point number three </li> 
+ </ol>
 
+ <!--Using start Attributes in a list-->
+ <h3>Start Attributes in a list</h3>
+ <ol type=”A” start=”4”> 
+ <li> Point number one </li> 
+ <li> Point number two </li> 
+ <li> Point number three </li> 
+ </ol> 
 
+ <!--Implementation of Definition list-->
+ <h3>Definition list</h3>
+ <dl> 
+ <dt> Unordered List </dt> 
+ <dd> A list of bullet points. </dd> 
+ <dt> Ordered List </dt> 
+ <dd> An ordered list of points, such as a numbered set of steps. </dd> 
+ <dt> Definition List </dt> 
+ <dd> A list of terms and definitions. </dd> 
+ </dl> 
+
+ <!--Nesting list-->
+ <h3>Nesting different kinds of list in a particular type of list</h3>
+ <ol type=”I”> 
+ <li> Item one </li> 
+ <li> Item two </li> 
+ <li> Item three </li>
+ <li> Item four
+ <ol type=”i”> 
+ <li> Item 4.1 </li> 
+ <li> Item 4.2 </li> 
+ <li> Item 4.3 </li> 
+ </ol> 
+ </li> 
+ <li> Item Five </li> 
+ </ol>
+ <!--Using alphanumeric identity and Implementing font element-->
+ <h3> Using the & lt;font & gt; element </h3> 
+ <font face=”arial, verdana, sans-serif” size=”2” color=”#345ac4”> The
+ & lt;font & gt; element has been deprecated since HTML 4.0. You should now use
+CSS to indicate how text should be styled. </font>
+
+<!--Implelementing block element-->
+<h1> Block-Level Elements </h1> 
+ <p> <strong> Block-level elements </strong> always start on a new line. The
+ <code> & lt;h1 & gt; </code>and <code> & lt;p & gt; </code>elements will not sit
+ on the same line, whereas the inline elements flow with the rest of the
+ text. </p> 
+
+ <!--Grouping element with div-->
+ <div class=”footnotes”> 
+ <h2> Footnotes </h2> 
+ <p> <b>1</b> The World Wide Web was invented by Tim Berners-Lee </p> 
+ <p> <b>2</b> The W3C is the World Wide Web Consortium which maintains many 
+Web standards </p> 
+ </div>
+ <!--Implementing a span element in a div-->
+ <div class=”footnotes”> 
+ <h2> Footnotes </h2> 
+ <p> <span class=”inventor” > <b> 1 </b>The World Wide Web was invented by Tim
+ Berners-Lee </span> </p> 
+ <p> <b> 2 </b> The W3C is the World Wide Web Consortium which maintains many Web
+ standards </p> 
+ </div>
  
 </body>
 </html>
